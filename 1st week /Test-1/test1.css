@@ -1,0 +1,206 @@
+.navbar .navbar-brand{
+ font-size: 27px;   
+ 
+}
+#navigation .nav-item a{
+    color: #444343;
+    padding: 7px 33px;
+    display: inline-block;
+    text-align: center;
+    transition:all 2s;
+}
+#navigation .btn{
+    background-color: #0a69bd;
+    color: #ffff;
+}
+
+.desginer h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20.9818px;
+line-height: 140%;
+}
+.bordering{
+    position: absolute;
+width: 706.04px;
+height: 0px;
+left: -160.37px;
+top: 27.23px;
+border: 2px solid #858686;
+}
+
+.image img{
+ width: 100%;
+ height: 450px;
+    position: relative;
+}
+#section-card{
+    position: absolute;
+padding: 45px 20px;
+text-align: center;
+color: white;
+background: #2e6ec1;
+
+top: -134px;
+right: 109.9px;
+transition: all ease-in-out 0.4s;
+}
+
+#section-card:hover{
+    transform: translateY(-35px);
+    cursor: pointer;
+}
+
+.card-tittle{
+    padding:7px;
+    display: inline-block;
+}
+.about-tittle{
+    padding: 20px;
+}
+.about-tittle::before{
+    border: 2px solid #858686;
+position: absolute;
+content: "";
+width: 200.16px;
+height: 0px;
+left: 260.69px;
+top: 866.77px;
+
+
+}
+
+#about .btn{
+    background-color: #0a69bd;
+    color: #ffff;
+   margin-top: 20px;
+}
+
+.carding{
+    position: absolute;
+    display: block ruby;
+    padding: 8px 0px 0px;
+    text-align: center;
+    top: -242px;
+    width: 217px;
+    left: -87px;
+    background: #fff;
+    box-shadow: 1px 1px 3px rgb(153, 153, 153);    
+    transition: all ease-in-out 0.4s
+}
+
+
+.card-img-left{
+    display: flex;
+    position: absolute;
+    padding: 7px;
+    
+}
+
+.card img{
+    width: 40px;
+
+}
+.carding:hover{
+    transform: translatex(-35px);
+ 
+    
+}
+
+/*---section-3 --- sevices--*/
+#sevices p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 5.24546px;
+line-height: 160%;
+}
+
+.section-row .fa{    font-size: 26px;
+}
+
+.service-box{
+    background: #eeeeec;
+    padding: 22px;
+    width: 70%;
+
+}
+.img-box{
+    position: relative;
+    height: 400px;
+}
+.img-box img{
+    height: 475px;
+width: 820px;
+position: absolute;
+top: -102px;
+left: 279px;
+z-index: -1;
+}
+
+/*--section-4--product*/
+
+.product-news{
+    padding-left: 35px;
+}
+
+.material-img .img1{
+    position: absolute;
+width: 210px;
+height: 270px;
+top: 60px;
+}
+.material-img .img2{
+    position: absolute;
+    position: absolute;
+    width: 138px;
+    height: 163px;
+    top: -33px;
+    left: 240px;
+}
+ .material-img .img3{
+    position: absolute;
+    width: 105px;
+    top: 176px;
+    left: 243px;
+ }
+
+ /*--section-6---*/
+
+ .contact-us{
+     background-color: #155b99;
+     color: white;
+ }
+
+/* jhbj*/
+
+.footer-contact .form-group{
+    padding: 14px;
+}
+.form-group input{
+     padding: 12px;
+    width: 325px;
+    position: relative;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom: 1px solid;
+
+}
+.form-inline .arrow{
+ position: absolute;
+left: 512px;
+font-size: 25px;
+display: block;
+}
+
+.icons i{
+    font-size: 18px;
+padding: 4px;
+background: lightgray;
+color: #2064dd;
+display: inline-block;
+border-radius: 10px;
+}

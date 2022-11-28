@@ -1,0 +1,369 @@
+.header{
+    position: fixed;
+    width: 350px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9987;
+    background-color: black;
+}
+.header .portfile img{
+    width: 120px;
+    border: 8px solid rgb(98, 98, 102);
+    display: block;
+    margin: 15px auto;
+}.header .portfile .social-link .fa{
+font-size: 20px;
+color: #fff;
+background: #212431;
+margin-right: 4px;
+padding: 8px 0;
+border-radius: 40px;
+width: 36px;
+height: 36px;
+text-align:center;
+line-height: 1;
+transition: all 0.5;
+}
+.header .portfile .social-link .fa:hover{
+    background-color: rgb(76, 166, 218);
+   color: white;
+   cursor: pointer;
+}
+
+.nav-menu{
+    padding: 30px 0;
+}
+.nav-menu ul{
+    list-style: none;
+   
+}
+
+.nav-menu ul li a{
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+   color:#a8a9b4;
+    font-size: 18px;
+}
+.nav-menu ul li a i{
+    font-size: 24px;
+    color: #a8a9b4;
+    padding-right: 8px;
+}
+
+.nav-menu ul li a:hover{
+    color: white;
+}
+.nav-menu ul li a i:hover{
+    color: rgb(65, 148, 216);
+}
+
+/*---------------------section-1-----------------------------------*/
+
+
+#hero{
+    width: 100%;
+   height: 100vh;
+   background-image: url('./hero-bg.jpg');
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+#hero h1{
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+
+}
+#hero::before{
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.hero-container{
+    position: relative;
+    z-index: 1;
+}
+#hero p{
+    font-size: 33px;
+}
+
+
+/*----------main----------*/
+
+ 
+#main{
+    margin-left: 300px;
+}
+
+/*--------section-2---------*/
+#about{
+    padding: 60px;
+}
+.tittle{
+    padding-bottom: 30px;
+}
+
+.tittle h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+
+}
+#col h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+.content ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+
+}
+.content ul li i{
+    font-size: 16px;
+margin-right: 5px;
+color: #149ddd;
+line-height: 0;
+}
+
+/*----------section-3---------*/
+  #fact{
+      padding: 60px;
+
+  }  
+#fact h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+
+.fact .count-box{
+    padding: 30px;
+    width: 100%;
+}
+.count-box i{
+    font-size: 50px;
+    display: block;
+    float: left;
+      padding-top: 0;
+      color: #149ddd;
+}
+.count-box span{
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #050d18;
+    margin-left: 60px;
+
+
+}
+.count-box p{
+    padding: 15px 0 0 0;
+margin: 0 0 0 60px;
+font-family: "Raleway", sans-serif;
+font-size: 14px;
+color: #122f57;
+}
+
+@media only screen and (max-width: 1199px){
+ #header{
+  left: -300px;
+ }
+}
+
+
+.mobile-nav-toggle{
+    position: fixed;
+right: 15px;
+top: 15px;
+z-index: 9998;
+border: 0;
+font-size: 24px;
+transition: all 0.4s;
+outline: none !important;
+background-color: #149ddd;
+color: #fff;
+width: 40px;
+height: 40px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+line-height: 0;
+border-radius: 50px;
+cursor: pointer;
+}
+
+/*----------- section-4----------*/
+#skills{
+    padding: 60px;
+    background-color: #f5f8fd;
+}
+#skills h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+
+.skills h2:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+.skills .progress{
+    height: 60px;
+    background: none;
+    display: block;
+}
+
+.skills span{
+padding: 10px;
+margin: 0 0 6px 0;
+text-transform: uppercase;
+display: block;
+font-weight: 600;
+font-family: "Poppins", sans-serif;
+color: #050d18;
+}
+
+.progress .val{
+    float: right;
+    font-style: normal;
+
+}
+.skills .progress-bar-wrap{
+    background-color: rgb(191, 191, 191, 0.44);
+}
+.skills .progress-bar{
+    height: 10px;
+    width: 100%;
+    background-color: #149ddd;
+}
+/*----------section-5------------*/
+ #Resume{
+     padding:60px;
+
+ }
+ #Resume h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+ }
+.resume-tittle{
+    padding: 0 0 20px 20px;
+    padding-bottom: 20px;
+margin-top: -2px;
+border-left: 3px solid #1f5297;
+position: relative;
+
+}
+.resume-tittle::before{
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    background-color: #ffffff;
+    width: 16px;
+    height: 16px;
+    border: 3px solid #1f5297;
+    left: -9px;
+}
+.resume-tittle h5{
+    background-color: rgba(170, 202, 223, 0.44);
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+
+/*--section -6 */
+
+#portfolio{
+    padding: 60px;
+    background-color: #a9baca59;
+}
+#portfolio h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+.portfolio::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 78px;
+    height: 4px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+.portfolio-tittle {
+    margin: 0 auto 35px auto;
+list-style: none;
+text-align: center;
+background: #fff;
+border-radius: 50px;
+padding: 2px 15px;
+}
+.portfolio-tittle li{
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    border-radius: 20px;
+    background-color: #fff;
+  transition: all 0.4s; 
+}
+
+.portfolio-tittle li:hover{
+    color: #149ddd;
+    cursor: pointer;
+}
+.portfolio .inner-box {
+    transition: all ease-in-out 0.4s;
+}
+.portfolio .inner-box:hover{
+    transform: translateY(-10px);
+}
+.portfolio-img {
+    overflow: hidden;
+   
+}
+.portfolio-img:hover img{
+    transform: scale(1.15);
+    transition: all 0.6s;
+}

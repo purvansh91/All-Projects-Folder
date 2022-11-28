@@ -1,0 +1,5 @@
+#hed{
+    background-color: "red";
+    background-image: linear-gradient(right lightblue, lightgray);
+    height: 100px;
+}

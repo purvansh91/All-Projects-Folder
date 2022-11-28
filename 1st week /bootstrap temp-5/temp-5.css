@@ -1,0 +1,220 @@
+.jumbo{
+    background-color:antiquewhite;
+    color: black;
+    padding: 10px;
+}
+.navbar-nav .end{
+    display: flex;
+    justify-content: end;
+}
+.navbar-nav .nav-item a{
+    color: black;
+    font-size: 17px;
+}
+.navbar{
+    width: 100%;
+}
+.end a{
+   padding:0 11px ;
+}
+.end{
+    display: contents;
+}
+#demo .item img{
+    width: 100%;
+    margin-right:20px;
+}
+
+.navbar .form-group {
+    position: relative;
+}
+
+.navbar .form-group input{
+    text-align: center;
+}
+.navbar .form-group .fa{
+
+    position: absolute;
+    left: 12px;
+border-right: 1px solid gray;
+padding-right: 6px;
+  
+}
+
+/*-----------------------*/
+.hero{
+    position: relative;
+}
+.hero .card{
+    
+    padding: 20px;
+position: absolute;
+top: 51px;
+left: 430px;
+background: ffff;
+background: #ffffffb3;
+opacity: 1;
+}
+.hero .card a{
+    background: #ff45008f;
+border: none;
+
+}
+.hero .card a:hover{
+    background-color: rgb(255, 102, 0);
+    transition: all 0.4s;
+
+}
+#product-card{
+    border: none ;
+    position: relative;
+overflow: hidden;
+background-color: var(--color-seven);
+}
+#product-card::before{
+    position: absolute;
+top: 0;
+left: 25%;
+z-index: 2;
+display: block;
+content: '';
+width: 50%;
+height: 100%;
+transform: skewX(-25deg);
+z-index: 2;
+background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 100%);
+}
+#product-card:hover::before{
+    animation:shine 1s;
+    webkit-animation: shine 1s;
+
+}
+
+#product-card img{
+    width: 100%;
+    position: relative;
+    display: block
+}
+.product button{
+    color: #db5716bd; 
+border-color: #ff6407b3;
+width: 186px
+}
+@media only screen and (max-width: 360px) {
+        .hero .card {
+      left: 50px;
+      
+    }
+    }
+    @media only screen and (max-width: 810px) {
+        .hero .card {
+      left: 0;
+      right: 0;
+      margin: auto;
+      
+    }
+    }
+
+/*----------------*/
+.rooms .card{
+ 
+   
+ 
+   position: absolute;
+bottom: 20px;
+font-size: 14px;
+left: 51px;
+background: #ffffffb3;
+opacity: 1;
+
+}
+
+.rooms .icon-box{
+    background-color: #ff6025b5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 29px;
+    left: 198px;
+}
+.rooms .btn{
+    background: #ff672f99;
+border: none;
+color: #fff;
+transition: all 1s;
+
+}
+.rooms .btn:hover{
+    background-color: orangered;
+    color: #fff;
+    
+}
+@media only screen and (min-width: 810px) {
+    .rooms .card{
+       left: 27px;
+       bottom: 20px;
+    }
+.rooms .card-body{
+    padding: 5px;
+}
+
+.rooms .icon-box{
+     left: 144px;
+     bottom: 25px;
+
+}
+.rooms .item .innr img{
+    height: 286px;
+}
+}
+
+/*----------*/
+#single-box{
+    position: relative;
+}
+#single-box{
+    background: none;
+    border: none;
+    margin: 10px;
+
+}
+/*-------------------*/
+.setup{
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 510px) {
+    .setup img{
+        width: 100%;
+    }
+   
+}
+
+/*--footer-------------*/
+footer p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.ftr p{
+    color: rgb(104, 104, 104);
+}
+.ftr p:hover{
+    color: rgba(226, 105, 25, 0.932);
+    cursor: pointer;
+
+}
+.ftr .form-group input{
+    width: 74%;
+
+}
+.ftr .form-group .fa{
+    padding: 11px;
+background: #ee6836a1;
+color: white;
+margin-left: 4px;
+border-radius: 4px;
+}
+.ftr .form-group i:hover{
+    cursor: pointer;
+}

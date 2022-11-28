@@ -1,0 +1,26 @@
+
+  .image img {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .nav li a{
+    color: #c8c5c587;
+  }
+  .nav li a:hover{
+    color: white;
+    background-color: rgb(14, 113, 131);
+    border-radius: 7px;
+  }
+.navbar li a{
+  font-weight: bold;
+  font-size: 20px;
+  
+
+
+
+  
+}

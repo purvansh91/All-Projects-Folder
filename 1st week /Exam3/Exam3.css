@@ -1,0 +1,359 @@
+body{
+    position: relative;
+}
+
+header{
+    margin: 0;
+
+    
+}
+
+
+.navbar .navbar-nav .nav-item a{
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    color: rgba(54, 66, 82, 0.993);
+    font-size: 18px;
+     font-family: sans-serif;
+     text-align: center;
+     align-items: center;
+     
+
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: rgba(255, 230, 6, 0.849);
+    background: slategray;
+    border-radius: 30px;
+}
+
+
+/* destinations--section-1--*/
+
+#destinations{
+    padding-top: 7.5rem;
+     position: relative;
+}
+
+.decor{
+    position: absolute;
+    width: 100%;
+min-height: 100%;
+top: 0;
+right: 0;
+background-size: cover;
+background-position: center;
+overflow: hidden;
+will-change: transform, opacity, filter;
+background-repeat: no-repeat;
+backface-visibility: hidden;
+width: 45%;
+
+}
+#destinations h2{
+    font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 84px;
+line-height: 89px;
+color: rgb(21, 21, 65);
+letter-spacing: -0.04em;
+
+}
+.hero-img{
+    margin-left: -2rem;
+}
+ .btns a{
+     font-size: 20px;
+     color: white;   
+     margin: 10px;
+     box-shadow: 0px 0px 36px #f9f9014f;
+ }
+ .btns .btn1{
+     padding: 11px  ;
+
+ }
+ .btns .btn2{
+    box-shadow: 0px 0px 9px 0px red;
+    padding: 11px;
+    width: 54px;
+ }
+
+ /*service--section-2----------------------------*/
+
+ #services{
+     padding-top: 7rem;
+ }
+ 
+ 
+ #carding{
+     border: none;
+    display: flex;
+    
+}
+    
+
+.card-section .pluse-img{
+    right: 202px;
+
+}
+#carding::before{
+    content: "";
+    position: absolute;
+
+    width: 6.25rem;
+height: 6.25rem;
+background-color: #DF6951;
+border-radius: 1.875rem 0 .625rem 0;
+z-index: -1;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 1s;
+}
+#carding:hover::before{
+    left: -1.875rem;
+bottom: -2.1875rem;
+
+}
+
+/*--city-- section-3-----------------------------*/
+.City{
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+#city-card{
+    border: none;
+    transition: all ease-in-out 0.4s;
+    
+    
+}
+#city-card:hover{
+    transform: translateY(-35px);
+    cursor: pointer;
+}
+#city-card img{
+    border-bottom-right-radius: 0;
+    border-top-left-radius:none ;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius:25px ;
+}
+.City .decor-2{
+    position: absolute;
+    bottom: 0;
+    top: 485px;
+right: 241px;
+}
+
+/*--booking--section-4---------------------*/
+
+#booking{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#booking h2{
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 689;
+    font-size: 52px;
+    line-height: 85px;
+    color: rgb(21, 21, 65);
+    letter-spacing: -0.03em;
+}
+#booking .card-body .fa-heart-o:hover{
+    color: red;
+}
+
+.booked .show{
+    position: relative;
+}
+.show .card{
+    position: absolute;
+    top: -158px;
+    left: 0;
+}
+
+.booked .icon-group .fa{
+    background: #d3d3d4;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 0.4s;
+}
+.booked .icon-group .fa-leaf:hover{
+    background: rgb(6, 78, 6);
+    color: white;
+    cursor: pointer;
+}
+.booked .icon-group .fa-gg:hover{
+    background: #121213;
+    color: rgb(53, 183, 226);
+    cursor: pointer;
+}
+.booked .icon-group .fa-send:hover{
+     background-color: rgb(67, 161, 216);
+     color: white;
+     cursor: pointer;
+}
+
+.booked .blue-shadow{
+    position: absolute;
+    position: absolute;
+top: -174px;
+z-index: -1;
+right: -96px;
+}
+
+/*--Testimonial--section-5-----------------*/
+
+#testimonial{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.testi h2{
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 689;
+    font-size: 52px;
+    line-height: 85px;
+    color: rgb(21, 21, 65);
+    letter-spacing: -0.03em;
+
+}
+.testi .img-round{
+    position: absolute;
+    top: -37px;
+    left: -51px;
+}
+
+.slide-section{
+        padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#demo .card{
+    border: none;
+    display: inline-block;
+}
+
+#demo .card img{
+    height: 50px;
+
+}
+/*--section-7-*/
+#subscribe{
+    padding-bottom: 2rem;
+}
+
+
+#subscribe h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 54px;
+
+/* or 164% */
+text-align: center;
+
+/* TEXT CLR */
+color: #5E6282;
+}
+
+.div{
+    background-color: rgba(223, 215, 249, 0.67);
+    border-radius: 129px 20px 20px 20px;
+     position: relative;
+}
+.sandicon{
+    position: absolute;
+    right: -14px;
+    top: -13px;
+
+}
+.gol2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.gol2 img{
+    width: 130px;
+}
+.gol1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.gol1 img{
+    width: 160px;
+}
+
+.form-group{
+    position: relative;
+}
+
+.form-group input{
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #39425D;
+    padding: 30px 54px;
+    border: none;
+    font-size: 14px;
+
+}
+.form-group i{
+    position: absolute;
+top: 50%;
+left: 1rem;
+color: #212529;
+transform: translateY(-50%);
+font-size: 17px;
+color: rgb(69, 21, 182);
+}
+
+form .btn{
+    padding: 15px;
+    width: auto;
+}
+
+/*-footer---*/
+footer .nav-item .nav-link{
+    color: #58595c;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer .nav-item .nav-link:hover{
+    color: rgb(180, 180, 12);
+}
+
+footer i{
+    margin-right: 20px;
+    background: #c1c2ca;
+    padding: 20px;
+    border-radius: 40PX;
+    color: #ff6000;
+    font-size: 20px;
+}
+footer .fa{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer .fa-facebook:hover{
+    background-color: rgb(18, 98, 204);
+    color: white;
+    cursor: pointer;
+
+}
+footer .fa-instagram:hover{
+    background-color: rgba(136, 24, 180, 0.698);
+    color: white;
+    cursor: pointer;
+}
+footer .fa-twitter:hover{
+    background: rgb(39, 128, 230);
+   color: white;
+   cursor: pointer;
+}

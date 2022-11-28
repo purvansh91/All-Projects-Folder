@@ -1,0 +1,203 @@
+header{
+    width: 90%;
+    margin: auto;
+}
+.navbar{
+    
+    background-color: #eef0f066;
+    position: relative;
+    display: flex;
+}
+.logo img{
+  padding-top: 30px;
+  margin: 1px 2px;
+}
+.right{
+    position: relative;
+    margin-left: auto;
+    justify-content:end;
+}
+ .right ul{
+     
+      display: flex;
+      padding: 13px;
+     }
+ .item {
+    padding: 1px 42px;
+    list-style: none;
+    
+ }
+ .item a{
+     text-decoration: none;
+     color: grey;
+ }
+ .container{
+     margin: auto;
+    width: 90%;
+    }
+    .imgbox img{
+        width: 100%;
+
+    }
+    .contbox{
+        width: 80%;
+        margin: auto;
+        
+    }
+    
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 23px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #home p{
+        font-size: 14px;
+    }
+    #home pre{
+        color: #7d7258a6;
+
+    }
+    .box{
+        width: 40%;
+        margin: 23px;
+        box-sizing: border-box;
+       padding: 3px;
+       float: left;
+
+    }
+    .innerbox h4{
+        font-size: 22px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+      .innerbox pre{
+          
+          color: #7d7258a6;
+      }
+    .innerbox p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .innerbox img{
+        width: 100%;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    
+    .form{
+       
+        width: 100%;
+        margin: auto;
+        float: left;
+        text-align: center;
+        background-color: #c1c1c1;
+        padding-bottom: 58px;
+    }
+    .form h2{
+        padding: 18px 0px 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .form input{
+        border: none;
+        background: none;
+        border-bottom: 1px solid black;
+        padding: 7px;
+        font-size: 15px;
+    }
+    .form i{
+        position: relative;
+    }
+    .form img{
+        width: 33px;
+        position: absolute;
+        top: 0;
+        left: 216px;
+    
+    }
+    .btn{
+        text-align: center;
+        clear: both;
+
+    }
+    .btn button{
+        padding: 12px;
+        background-color: white;
+        color: lightslategrey;
+        font-size: 17px;
+    }
+    .ftr{
+        
+       margin: auto;
+       padding-bottom: 62px;
+        background-color: #c1c1c1;
+    }
+    .btn button:hover{
+        background-color: black;
+        color: white;
+        font-size: 17px;
+    }
+    .item a:hover{
+        color: rgb(17, 15, 15);
+    }
+    footer{
+        margin-top: 30px;
+    }
+    .col1{
+        position:relative;
+        top: 30px;
+    }
+    .col1 a{
+        padding: 30px;
+        text-decoration: none;
+        color: #4b4a4a;
+    }
+
+    .col2{
+        position: relative;
+        float: right;
+        top: 9px;
+        right: 55px;
+    }
+    .col2 a{
+        text-decoration: none;
+        color: #4b4a4a;
+
+    }
+    .col2 img{
+        padding: 2px 11px;
+        position: relative;
+        top: 3px;
+    }
+    .ftr a:hover{
+         color:black;
+         text-decoration: underline;
+
+        }
+        .col2 img:hover{
+            
+            cursor: pointer;
+            background-color: rgb(155, 211, 243);
+            text-decoration: underline;
+        
+
+
+
+        }
+        @media screen and (max-width: 600px) {
+            .navbar ,.right{
+              width: 100%;
+              margin: auto;
+             
+            
+            }
+          }
+      
+        @media screen and (max-width: 600px) {
+           .box, .ftr,.form{
+              width: 100%;
+              margin: auto;
+            }
+          }
+         

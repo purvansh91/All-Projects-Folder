@@ -1,0 +1,137 @@
+#mainnav{
+    background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: background-color all 0.3s cubic-bezier(.7,.29,.07,.6);
+    padding: 4px
+}
+#mainnav .nav-item .nav-link{
+    color: #000;
+    padding: 9px;
+    border-bottom: 0.25rem solid transparent;
+
+}
+
+#collapsibleNavbar ul{
+    margin-left: auto;
+}
+
+.nav-item .nav-link{
+    margin: 10px;
+        display: block;
+    position: relative;
+    border-radius: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+
+#mainnav .nav-item .nav-link:hover{
+    background-color: rgb(13, 7, 47);
+    color: rgb(38, 255, 0);
+    display: block;
+ 
+}
+ 
+.masthead{
+    height: 100vh;
+    padding: 0;
+}
+.masthead{
+    width: 100%;
+    position: relative;
+    min-height: 35rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url('./startbootstrap-grayscale-gh-pages/assets/img/bg-masthead.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: scroll;   
+}
+.masthead h1{
+    font-size: 6.5rem;
+line-height: 6.5rem;
+letter-spacing: 0.8rem;
+background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.masthead h2{
+    font-size: 1.25rem;
+    max-width: 30rem;
+}
+#btn{
+padding: 18px;
+background: #37eed466;
+border: none;
+}
+.about-section{
+    padding-top: 10rem;
+    background:linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.about-section h1{
+
+    font-weight: 500;
+    margin-top: 0;
+}
+.project-section{
+    padding: 10rem;
+}
+#bg{
+    background-color: #000;
+}
+#row{
+  padding: 3rem;
+    
+}
+
+
+
+#signup{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("./startbootstrap-grayscale-gh-pages/assets/img/bg-signup.jpg");
+    padding: 10rem; 
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#signup h2{ 
+    text-transform: uppercase;
+}
+.signup-section .form-inline input{
+     font-size: 80%;
+     padding: 1.5rem 2rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-transform: uppercase;
+     height: auto;
+     letter-spacing: 0.15rem;
+     width: auto;
+}
+#bttn{
+    padding: 1.5rem 2rem;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 80%;
+    background: #37eed466;
+    border: none;
+letter-spacing: 0.15rem;
+}
+.card-section h4{
+    letter-spacing: 0.10rem;
+    text-transform: uppercase;
+    font-size: 80%;
+
+}
+.card-section{
+    padding-top: 5rem;
+    background-color: #000;
+}
+
+hr{
+    width: 3rem;
+}
+
+.card-section .fa{
+    color: #00512b73;
+}

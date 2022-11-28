@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>aprofessional</title>
+  <link rel="stylesheet" href="tamp.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+
+
+<body>
+
+  <nav id="mynavbar" class="navbar  navbar-expand-sm  bg-info navbar-dark w-100 sticky-top ">
+    <img src="pngfind.com-webex-png-3458148.png" alt="" width="160px" height="50px" class="navbar-brand pr-5 " >
+
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">   
+    <ul class="navbar-nav   ">
+      <li class="nav-item pr-2">
+        <a class="nav-link font-size-4"  href="temp.html">Home</a>
+      </li>
+      <li class="nav-item pr-2">
+        <a class="nav-link" href="about.html">about</a>
+      </li>
+      <li class="nav-item dropdown pr-2">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Other
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#"> open link </a>
+          <a class="dropdown-item" href="#">save us</a>
+          <a class="dropdown-item" href="https://www.geeksforgeeks.org/web-development/">web devlopment</a>
+        </div>
+      </li>
+      <li class="nav-item pr-2">
+        <a style="transition: 3s;" class="nav-link " href="contactus.html"xc >contactus</a>
+      </li>
+
+    </ul>
+
+
+    <form class="form-inline d-flex justify-content-end w-100" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="search" name="search" id="myInput" placeholder="search">
+      <button class="btn btn-success mr-2" type="submit">
+        <span class="spinner-border spinner-border-sm"></span>
+        Search</button>
+      <button class="d-flex btn btn-danger rounded-circle mr-2">Login</button>
+      <button type="button" class="btn btn-danger rounded-circle" data-toggle="modal" data-target="#signupmodal">signup</button>
+    </form>
+  </div>
+  </nav>
+
+
+  
+  <!-- The Modal -->
+ <div class="modal fade " id="signupmodal">
+  <div class="modal-dialog modal-dialog-centered bg-info ">
+    <div class="modal-content ">
+    
+      <!-- Modal Header -->
+      <div class="modal-header w-100 ">
+        <h4 class="modal-title text-info text-center m-auto display-4">Sign up</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body-->
+      <div class="modal-body">
+          <div class="row m-auto p-4">
+        <form action="/action_page.php">
+            <div class="form-group">
+          <label for="name" class="text-dark">Name:-</label>
+            <input  type="name" class="form-control" required name="name" id="name" placeholder="Enter a name">
+            <small class="text-muted"> user id</small>
+            </div>
+            <div class="form-group">
+          <label for="pswd" class="text-dark"> password:-</label>
+          <input type="password" class="form-control " required name="password" id="password" placeholder="Enter a password">
+          <small class="text-muted">Enter 6-8 charcter password</small>
+            </div>
+      </div>
+      <button type="onsubmit" class="btn btn-outline-info m-auto d-block w-100 ">sign in</button>
+        </form>
+      </div>
+      
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    
+
+
+  <!--crouse-->
+
+  <div id="demo" class="carousel slide carousel-fade " data-ride="carousel">
+    
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="image">
+        <img class="w-100"
+          src="https://www.secure-retail.com/wp-content/uploads/2021/07/SR-EVCP-Neon-Car-BW-1400-x-400-Page-Banner.jpg"
+          alt="Los Angeles" width="1400" height="500">
+        <div class="carousel-caption justify-content-center align-item-center  ">
+          <h1 class="display-4 font-weight-bold">Wellcome to icoder</h1>
+          <p class="font-weight-bold">We had such a great time in LA!</p>
+          <button class="btn btn-danger">Technology</button>
+          <button class="btn btn-primary">Web devlopment</button>
+          <button class="btn btn-success">Tech fun</button>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="w-100" src="https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2016/12/blog-1400x400-1.jpg"
+          alt="Chicago" width="1400" height="500">
+        <div class="carousel-caption">
+          <h2 class="display-4 font-weight-bold">Chicago</h2>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="w-100"
+          src="https://image-marketing.com.au/wp-content/uploads/2017/06/Retaile-Trade-Header-1400-x-400.jpg"
+          alt="New York" width="1400" height="500">
+        <div class="carousel-caption">
+          <h2 class="display-4 font-weight-bold">New York</h2>
+          <p>We love the Big Apple!</p>
+
+        </div>
+      </div>
+    </div>
+ <a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+  <!--card-->
+  <div class="container section">
+    <div class="row w-100  my-4 d-flex">
+      <div   class="  col-md-6 ">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+
+          <div class="col-sm-8  pr-3">
+            <strong class="text-primary">word</strong>
+            <h2>Global conferences</h2>
+            <small class="text-muted">Nov12</small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus!</p>
+            <a href="#" class="stretched-link"> reading</a>
+          </div>
+
+          <div class="col-4 d-lg-block ">
+            <img class="w-100 right-rounded d-block" src="./img/pexels-photo.jpg" alt="" height="200px" width="300px">
+          </div>
+          </div>
+      </div>
+
+
+
+  <div class="  col-md-6  ">
+      <div class="row">
+      <div class="d-flex border rounded bg-info">
+      <div class="col-sm-8">
+         <strong class="text-success">desgin</strong>
+         <h2>Learn Desgin</h2>
+         <small class="text-muted">Nov12</small>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus!</p>
+         <a href="#" class="stretched-link"> reading</a>
+     </div>
+
+    <div class="col-4 d-none d-lg-block ">
+        <img class="w-100" src="thumb1.avif" alt="" height="200px">
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+    <div class="row my-4 ">
+    <div class="  col-md-6   ">
+       <div class="row d-flex">
+       <div class="col-sm-8 ">
+          <strong class="text-primary">word</strong>
+          <h2>Web devloping</h2>
+          <small class="text-muted">Nov12</small>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus!</p>
+          <a href="#" class="stretched-link"> reading</a>
+       </div>
+
+         <div class="col-4 d-none d-lg-block ">
+            <img class="w-100 rounded-right" src="thumb-3.avif" alt="" height="200px" width="200px">
+         </div>
+         </div>
+      </div>
+
+  <div class="  col-md-6  ">
+      <div class="row d-flex">
+      <div class="col-sm-8 ">
+         <strong class="text-success">desgin</strong>
+         <h2>Learn Desgin</h2>
+         <small class="text-muted">Nov12</small>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus!</p>
+          <a href="#" class="stretched-link"> reading</a>
+    </div>
+
+    <div class="col-4 d-snone d-lg-block ">
+        <img class="w-auto rounded-right" src="thumb2.avif" alt="" height="200px" width="200px">
+      </div>
+       </div>
+      </div>
+      </div>
+    </div>
+
+  <hr class="featurette-divider">
+
+    <div class="container section">
+        <div class="row d-flex text-center mt-4 " >
+        <div class="col-md-4">
+          <img class=" justify-content-center rounded-circle" src="vsss.png" alt="" width="140px" height="140px">
+          <h2 class="">Vs-code</h2>
+        <p class=" lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et voluptatibus minima recusandae excepturi nemo officia maxime atque</p>
+        </div>  
+
+        <div class="col-lg-4">
+          <img class=" " src="vs cod.png" alt="" width="140px " height="140px">
+          <h2 class="">Icoder</h2>
+          <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque vero iste libero sint est nam rem voluptas explicabo ex!</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img class="  rounded-circle" src="bootstrap.png" alt="" width="135px" height="135px">
+          <h2 class="">Fuction page</h2>
+        <p class="  lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatum inventore consequatur in necessitatibus facere </p>
+        </div>
+    </div>
+    </div>
+
+   <hr class="featurette-divider">
+
+   <!-- this is footer-->
+  <footer id="ftr m-auto">
+    <div class=" row bg-dark pt-3 mt-5 ">
+      <div class="col-sm-4 text-white d-flex flex-column justify-content-center">
+
+        <img src="bootstrap.png" width="30px" height="30px" alt="">
+        <h2>Web devloper</h2>
+        <p class=" flex-column">desgin and built with all the all the love in the word  by the bootstrap team with the help of our contribute.</p>
+        <small class="text-muted"> code licenced MIT, docs CC BY 3.0 currently v5.2.2.</small>
+      </div>
+ <div class="col-sm-2  ">
+    <h4 class="text-white">Link</h4>
+      <ul class="nav flex-column">
+          
+      <li class="nav-item"><a class="nav-link " href="temp.html">Home</a></li>
+      <li  class="nav-item"><a class="nav-link " href="#">Docs</a></li>
+      <li  class="nav-item"><a class="nav-link " href="#">Example</a></li>
+      <li  class="nav-item"><a class="nav-link " href="#">icons</a></li>
+      <li  class="nav-item"><a class="nav-link " href="#">Themes</a></li>
+      <li  class="nav-item"><a class="nav-link " href="#">Blog</a></li>
+      <li  class="nav-item"><a class="nav-link" href="#">Swag Store</a></li>
+ 
+  </ul>
+ </div>        
+      <div class="col-sm-2 ">
+        <h4 class="text-white">Guides</h4>
+          <ul class="nav flex-column ">
+          
+          <li class="nav-item"><a  class="nav-link  " href="#">Getting started</a></li>
+          <li  class="nav-item"><a class="nav-link" href="#">Gtarter template</a></li>
+          <li  class="nav-item"><a class="nav-link" href="#">Webpack</a></li>
+          <li  class="nav-item"><a class="nav-link" href="#">Parcel</a></li>
+          <li  class="nav-item"><a class="nav-link" href="#">Vite</a></li>
+
+</div>
+    <div class="col-sm-2 ">
+      <h4 class="text-white">Projects</h4>
+        <ul class="nav flex-column ">
+        
+          <li class="nav-item"><a class="nav-link" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap5</a></li>
+          <li  class="nav-item"><a class="nav-link" href="https://www.w3schools.com/bootstrap4/default.asp">Bootstrap4</a></li>
+          <li  class="nav-item"><a class="nav-link" href="..//assets">icons</a></li>
+          <li  class="nav-item"><a class="nav-link" href="#">RFS</a></li>
+          <li  class="nav-item"><a class="nav-link" href="#">npm starter</a></li>
+
+  </div>
+  <div class="col-sm-2 ">
+    <h4 class="text-white">Community</h4>
+      <ul class="nav flex-column ">
+      
+        <li class="nav- item"><a class="nav-link" href="#">Issues</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#">Discussions</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#">Corporate sponsors</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#">open Collective</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#">Stack Overflow</a></li>
+
+</div>
+
+ </div>   
+</footer>
+
+
+<script>
+  $(document).ready(function(){
+    $("#myInput").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#mynavbar").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+  </script>
+</body> 
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="icon" type="image/x-icon" href="barbell.png">
+
+</head>
+<!--font size link-->
+<link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="web1_files/css2.css" rel="stylesheet"><link rel="stylesheet" href="web1_files/styl.html">
+<!--css-->
+<style>
+    body{
+        
+        color: white;
+        margin: 0px;
+        padding: 0px;
+       background-image: url(https://wallpaperaccess.com/full/1087594.jpg);
+       background-position: center;
+       background-size: cover;
+       background-attachment: fixed;
+    }
+     .header{
+         display: flex;
+
+    }
+        
+       .left{
+           text-shadow: 3px 3px 4px #26abec;
+       font-weight: bold;
+        display: inline-block;
+        position:absolute;
+        left: 5px;
+        top: 8px;
+        
+    }
+    .mid{
+      
+         font-weight: bold;
+        line-height: 3px;
+
+         font-size: 18px;
+        display:block;
+        margin: 20px auto;
+        width: 40%;
+        
+    
+  
+    }
+    .right {
+        
+       line-height: 0px;
+        position: relative;
+        display: inline-block;
+        right: 19px;
+        top: 20px;
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+
+        
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration:underline;
+        padding: 30px 10px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: rgb(233, 240, 247);
+    }
+    .left img{
+        line-height: 0px;
+        width: 50px;
+
+    }
+    .btn{
+        font-weight: bolder;
+        margin: 3px 7px;
+        background-color: rgba(26, 64, 32, 0.77);
+        color: white;
+        padding: 4px 10px;
+        border: 2px solid rgb(243, 240, 240);
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: lightslategrey;
+    }
+        .container{
+            font-family: 'Baloo Bhaina 2';
+          text-align: center;
+          display: block;
+            border: 2px solid rgb(237, 250, 250);
+            border-radius: 20px;
+            margin: 100px 20px;
+            padding: 40px 2px;
+            width: 60%;
+        }
+        .container h1{
+            text-shadow: 3px 3px 3px #df40cee8;
+        }
+        .form-group input{
+           text-align: center;
+           display: block;
+           width: 340px; 
+           padding: 5px;
+           border-radius: 5px;
+           border: 2px solid black;
+           margin: 5px auto;
+
+        }
+        
+</style>
+
+
+ <!--html header-->
+
+
+<body>
+ <header class="header">
+     <div class="left">
+    <img src="https://cdn-icons-png.flaticon.com/512/2964/2964514.png">
+     <div>mad fittness</div>
+    </div>
+    
+    
+    
+
+     <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">home</a></li>
+            <li><a href="#">about as</a></li>
+            <li><a href="#">fitness calculator</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+     </div>
+     
+
+     <div class="right">
+         <button class="btn" > all us now</button>
+         <butto class="btn"> cilck us</button>
+     </div>
+
+ </header>  
+ <!--html form-->
+    <div class="container">
+        <h1>  &#9885; Join The  Gym of Ahemdabad Now &#9885;</h1>
+         <form action="noaction.php">
+             <div class="form-group">
+                 <input type="Name" name="Name" id="Name" placeholder="Enter your Name"> 
+             </div>
+             <div class="form-group">
+                <input type="Age" name="Age" id="Age" placeholder="Enter your Age"> 
+            </div>
+            <div class="form-group">
+                <input type="Gander" name="Gander" id="Gander" placeholder="Enter your Gander"> 
+            </div>
+            <div class="form-group">
+                <input type="Locality" name="Locality" id="Locality" placeholder="Enter your Locality"> 
+            </div>
+           
+            <button class="btn" style="width: 350px;">submit</button>
+        </form>
+
+
+    </div>
+
+ </body>
+</html>

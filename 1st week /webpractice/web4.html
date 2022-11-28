@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Form</title>
+    <link rel="icon" type="image/x-icon" href="form.png">
+</head>
+<style>
+    
+    
+    body::before{
+        content: "";
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+      background-image: url('./blur-bg.jpg'); 
+            z-index: -1;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .main{
+        font: 14px/16px "Roboto", sans-serif;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 160px;
+       
+    }
+    .box{
+        width: 540px;
+        margin: auto;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.40);
+        padding: 30px;
+        text-align: center;
+        color: #fff;
+        border-radius: 10px;
+        box-shadow: -4px -4px 7px ghostwhite;
+        height: 240px;
+        
+
+    }
+    .form-box1{
+        margin-left: -15px;
+    margin-top: 13px;
+    margin-right: 20px;    margin-left: -15px;
+    margin-top: 13px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+    .box h1{
+        margin-bottom: 32px;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px;
+}
+    
+    .form-box1::before{
+        content: "";
+        display: table;
+
+    }
+    .form-box1 input{
+         background: none;
+         color: white;
+         padding: 8px;
+         border: 1px solid;
+         border-radius: 8px;
+         width: 50%;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        width: 50%;
+        margin: auto;
+    }
+    .btn li{
+        list-style-type: none;
+        position: relative;
+        left: 60px;
+        width: 25%;
+        
+        
+   }
+   .btn li a{
+       text-decoration: none;
+       color: rgb(176, 110, 238);
+   }
+    button{
+      
+       background: none;
+      color: fff;
+      color: white;
+      border: 1px solid;
+       border-radius: 8px;
+      padding: 8px;
+      position: relative;
+      right: 35px;
+      width: 25%;
+   }
+   button:hover{
+       font-size: 15px;
+   }
+   .btn li a:hover{
+       text-decoration: underline;
+       color: whitesmoke;
+   }
+      
+</style>
+<body>
+      <main class="main">
+          <div class="box">
+              <h1> Signe in</h1>
+              <form action="no action.php" onsubmit="" >
+                  <div class="form-box1">
+                 <label style="padding: 14px;" for="Name"> User id</label>
+                 <input type="id"  name="Username/Email" required id="Username" placeholder="Usernam/Email">
+             </div> 
+                  <div class="form-box1">
+                 <label style="padding: 7px;" for="Password">Password</label>
+                 <input type="Password" name="Password" required id="Password" placeholder="password">
+                  </div>
+                    <div class="btn">
+                   <button type="onsubmit" >Sign in</button>
+                   <li> <a href="#"> forgetpassword</a></li>
+                    </div>
+              </form>
+             </div>          
+      </main>
+
+</body>
+</html>

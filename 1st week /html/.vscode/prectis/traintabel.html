@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+       
+        table,td,th{
+            border: 2px solid;
+        }
+        table,td,th{
+            border-color: rgb(126, 46, 46);
+        } 
+
+        table th{
+            border: none;
+            background-color: #f5f2d1;
+        }
+    
+    table,th,td{
+        border-collapse: collapse;
+    }
+
+        table,td{
+            height: 200px; width: 1000px;
+            
+        }
+    table,td {
+        text-align: center;
+    } 
+    table td img {
+     border-radius: 50%;
+    }
+    tr:hover {background-color: #e4e4e4;
+    }
+
+     body{
+         background-image: url("https://www.bypeople.com/wp-content/uploads/2015/05/css-gradient-background.png")
+    
+    }    
+    table{
+        background-color: aliceblue;
+    }
+
+        
+        
+</style>
+<body>
+    <div>
+  <caption>Class Schedule Table</caption>
+    <table border="text center"  border="1"width="100%">
+        <thead>
+        <tr style="color: rgb(146, 60, 60);">
+             <th style="height: 50px;" >monday</th>
+             <th>tuesday</th>
+             <th>wednesday</th>
+             <th>thursday</th>
+             <th>friday</th>
+          </tr>
+     <tbody style="color:rgb(96, 110, 114);">
+           <tr>
+                <td>x</td>
+                <td><img style="width:90px;" height="90px" src="https://preview.colorlib.com/theme/bootstrap/table-04/images/xclasses-2.jpg.pagespeed.ic.4_hhL4fAmX.webp"><br>
+                <strong>yoga train </strong><br>
+                        7am to 8am</td>
+                <td> x</td>
+                <td ><img width="90px" height="90px" src="https://www.india.com/wp-content/uploads/2018/03/Yoga-for-women.jpg"><br>
+                <strong> yoga traninig</strong><br>
+                         6am to 7am
+                </td>
+                <td> x </td>
+            </tr>
+            <tr>
+                <td><img width="90px" height="90px" src="https://static.india.com/wp-content/uploads/2018/06/Yoga.jpg?impolicy=Medium_Resize&w=1200&h=800"><br>
+                <strong> yoga traninig</strong><br>
+                         6am to 8am</td>
+                <td> x</td>
+                <td> <img width="90px" height="90px" src="https://st.focusedcollection.com/18590116/i/650/focused_225315498-stock-photo-woman-performing-yoga-forest-sunny.jpg"><br>
+                <strong> yoga traning</strong><br>
+                         5am to6am</td>
+                <td>x</td>
+                <td> <img width="90px" height="90px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2ShSiW6e86YWgu5S_e2p_oApwWjSKVEfcA&usqp=CAU"><br>
+                <saction> yoga traning</saction><br>
+                          8am to 9am
+            </tr>
+            <tr>
+                <td> x</td>
+                <td><img width="90px" height="90px" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBISEhgRERYSERgREhgRERERGBESERERGBgZGRgYGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHzQkISs0NDY0NDQ0NDQ0NDQxNDQ0NDQ0NDY0NDQxNDQ0NDQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAACAwABBAUGBwj/xABHEAACAQIDBAcDBgoJBQAAAAABAgADEQQSIQUGMVETIkFhcYGRBzKhFDNCUrHBFRYjVGJykqLR8CQ0Q0RTg5PS4YKjstPx/8QAGgEAAwEBAQEAAAAAAAAAAAAAAQIDAAQFBv/EACkRAAICAgAFBAMAAwEAAAAAAAABAhIDEQQhMUFRE2GRoSKx8CNxgRT/2gAMAwEAAhEDEQA/ANtpdoWWTLPW2cegbSWhZZeWCwKgSWjMsmWaxtC7S7RmWWEmsaou0gWNySwk1jVFhZYWMCQgkFg1FhZYWNCQgkFjVEhYQWOCSwkGxlESFhZI4JDFOCw1BASXlmgJLCTWDQzZZeSackvo4LBoZckhSaujlFJrGoZCkWyTaUimSFSA4GNki2WbGSKZIykI4GNlimWbHSJZIykI4GVhAKzSyRZWGwriZysq0eVg5Zti1FWlxmWSbZqnTyS8kcEl5JGx1VEZJMk0BJeWaxqiMsvJHhJeSaxqiMssJHhIQpwWNUQElhI8U4QSCwaCAksJNASEKcFhqmcU4YSPCQwk1g0M4SWEmkU5YpxXMaggU4QSaAkIJFcxlAzhIQpzQKcIJFcxlAzCnL6OagkIU4txqGTo5Rpzb0cnRweoahgNOKanOiacBqUZZAOBzWpxTU502pRT0o6mK4HMenEOk6b04l6cdTJvGcxki2pzoPTimpyimTcDEUglJsNOCUhsChkyyTVkkmsCh0AksJGhIQSc9jpoKCSwkaEhhILhoJyywkcEhBILBqICQgkeEhBJrGoJCQhTjgkIJBY1RApwwkcEhhILDVEBIQpx4SGEi2DUzhIQSPCS8sFg1EhJYSNyy8sVyDUWElhIy0sCI5BqAEhhIYEjkKCzEKALlmIAA7yYjmHRy6OPLYx8KQLJQSqpF7klmDg+qepnSyzwhxpXaLYxczUg4pO4BK5CgX7RmHgJ76i6uoZCGVhdWU3BEnHKnspODjoWUgFJpKwSJRSE0ZWSJZJsZYtllFM1TC6RLpOgyRLJHUxXE57pEtTnRZIpkjqYrgc5kgmnNzJAKR7iOBj6OSaskqGwKGgCGBLAlgSVitSgsILCAhgQWNoELCCQgIQEFg1BCwgkMCEBBY1QAkMJCAlgQWDUoJCCwgIQEFjVBCwgsICFaCwag5ZLQrSWi7DoC0q0MyorkbRVoQEoQliOQThbe3iTDHo0UvUKhgDcIgPAse3wHqJzsNs2piF+UbQqMKfvrTHVBHZ1RwHxMTvfRti0ewN6a8dQSrtx9RO9trEdJRTKDlqWa/LS4B7/AOE5MuTq327HRCHKOu/crCbUw1uhWnlQ9WxVcljxzCZ8Zs+rhD0uGY5CbtTPWVT3jtHfxEVhcFeeizZaHWF7LlAOt9LASGLLLInvlrozZVHHJV5p9UxGzdpLXGnVYDrIeI7xzE1sJxd38Jaoz8lyDxJufsHrO6068ORyimyOWMYzcY9BDCAwjGgGWUgJCWEWyx5gNKKQ1TMywGSaGEUyx1IDiZ2SCVjmgERri1FZZIdpIbGqQGEDMweGHjtA0aQYQMQrwg8VobQ8GGDEK8MPAao8GEDEB4QeKGo4GGIkNCDRQ1HCXEhoQaA1RwMgMWGl3gNoZeXeBmlZoGDQRMkHNKzRGw6DEJTFXhq0RsDRw978LmppVH9mxVv1Xtr6gesHZOPVqBoVTYKLow7tQPG87eMoipSameDqR4G2h9bTweDr2nDxEnGVl36nVw8Vkg4PqntHt9l5dLzXtGopWw4CeZw2NtOjs+v0tVVOoF2I8Bf7bSeLLuPppc2JlwOMnN9EdXBYfIgHaxufE/8AFox45jM7zv0opRRxptvbFtFEw2MWTGTLIomAZZMEmOmOkC0W0YYtoyY6QDQDGGAY6ZnECSS8kOxamANDDTAMVT4Z0vyzLfXhBG0qN8vS078cudL2GnOdtGc10dMNDDTylTfXBKbB3e1/dR7aeNp0dmbwYXEtkpVAzWvkYMjEWHAMBe1+yK4MyyRb0md0PDDTKGhhojiV2alaGGmUNDVojQTSGhBpnDRgaBoYeGhBogNDDRGjDg0MGKVoamKZoO8hlyoGKDLEkl4jCSEDBvLEmwDVM+YYt+jrVE4ZajqB3Bjb4Wn01J8z37Xo8YWGgq01fxOqH/w+MhkhZFeHnWbHU8bPSboVc9Vj9Wn8Sw/gZ84TF98977O2zLWf9JVHkGJ+0SOLFWal4L8Tk3jaPbO0zs0JjFMZ1vmzz4oFjAJhEwGMZIqkUTAJlkxbNHRRIomCxkZot2jJFEgc1/Uj0NoBaBTbQj9I38zf75C0dIAWaSLzSRtCnw98DSUfPqT9UI9/W9pBhqbC3TN4dGfuaetbYmMYW+SUR/mKNf2oA3axdh/R6OnYtZhr+1PYtj8nz3p5fB440KY+m57sgA9c33RuHpBWDo7IysHQgXZWBuDe41E9g27OLP8AdsP3E1ah++MTdjFKb/J8H33eqw+MF8XcPp5vBnw+91YKqtUpsQNXaixZj35agHoJ1cNviLdcIeFsmdSOdxZtPP1mP8WcTmzHC4EgcOvVA9B/CMG72Ktb5Jgjrf36n23EVywPqvsqv/SujfwdVN7aJv1qakcA5qqD59GYVPe2iWyk0xf6WarYHtBJpi05f4AxfZgsDw0KtYjzJk/AGPuLYfCDtFqtcfAPx8omsH8xr8T2/R1am9tNeDI1tTlFQ3HIXA1im36pDgj+LEqPsMxLsTaBGuFwDdvWLlvMlpPxdxxIJweA4W0YqL8zZvGbXD9/2a3FfyNTb+D6FFX/AM3KbeGSXT38OuagFsbfOg2HPVReJGwcaBYYLZp59pItwudb98Gnu1iz72CwXDT8o418Qf55wa4bx9mtxXn6Ojhd9mY60Vy6dZao0J4XDKPtnUob10zxt2dUMlwO2+vwnC/F/FhbfIcENfrk+vb8YylsDFrr8iwfgaj6/GJKPDvp+zKfFLq9/wDD1A3ioH6aDuJcfHLBrbxUVGbPSHbYuwa3cMms5KbIxVv6ns+/PMx+2BidiYs3IwWzWPZcsdfA2B+Eko4d8/2UlkzJcv0aW3xpZc35O/1S73P7l/hMzb80gLlUva9s1T09yZ02FjdT8j2Yv6xqX4acL6Sl2DjFOY4PZfMglwPjp/8AJSvDfzFjPie7+h9Lf+keKAHudivrkv8ACBV9oNMe5SzeL2Hrl09IqlsjGi4GE2SQe9jYed/Wec3z2HjKdMYl6GHpIgyuuEIOW5JzuoHDszdlxEcOG7IZTy939HrcNv3nIUUcpPaXLLfxCzyO+e2Hr4nrBVNNAllzDiS3br9Iek8hhsW6nMrFe8H+bwBU4dwA8hIThDX4rRaEpb5s6grz1u5e3atIvRp9Ec/5T8rntdRYgFeBtrr9WeB6WGtXkZGONb5otLJtH1ep7QAhyulNzpdqbvlHP3l+y89FhNqtVQOipZ1DLZnIKngbhPhPjOxdlYjGVehw6ZjbM7nRKac3bsvaw7T6z6Vhtm7Wp01pKmAyoioAz1j1VFh3dg1tK0x9OSJXaOzU2hWW5NNMo7Q75v2SgmDE7yLTF2C9/wA9oe+yG0z/ACbbX1MGLaC1SsLD01iKlLbdvm8G1ubuwPfqRHjDF318glknr8d/AGI3yVDqKdh3YoeWtK0ztvyLErSLgC/UNQ3/AGkEN6O2CLfJ8F7tuy5PrBfB7V/N8EdNbkESqhh9vknfiOzfwc4e0lPpUHU9gDg+ukYu/K1VsimiSPedTVF+6xGvjGnBbU4nC4Anifmzr6xTptccMLg9BwHR29M45xksPt8meTiddX8GCjtGshd0rCo9Rrs70aNNwbZRYswuAANJ0l2/jFQE4ZqvN1KIPJAWPxme+2b/ANWwxHeKdrftiMpVNqi/9Fww04AopvpwOeO1jfj5EjLOu7+BR3sxP5mw8Wf/AGyR/wAt2t+bUPLJ/vlw1x+F8h9TP5fwNpbzkgZqSqx4r0gNvMLrLTek3INLQNYMHUgjnwuPCCAB2A+QlhV46j4TOMfAdT8/RSb6Jb5sg69XPfUeCxtHe7MPmjmtexfTwzZbTFU2aGN87/tC3pabcNhkXW1zzOsDWPwaKy76mpN5XuLUGNxxz0xbnxjU3grFhbDdXtY16WnLS0FLdkaBJOvgvGM/I8bcbh0Jvbh0lPjNNPajsfmTa2hz09TytMiDWakOkjKvZFYQfdjX2i4GlAsewZ6ag+cW216o/uxPhUTT4RgeEDETS7DuG+4K7VqWBOHfjqA9PT1teGu13sScNUuL2UPQN+RvnmcPrCV4z14Aoe7DpbaqmxODrC97jpMISP3xHrtepf8Aqtfxz4T/ANkUrxivEbXhDelvuxx2vU/Nq58HwmvrUjKW1HIF8NWW44Z8KbH/AFIgHx9TDB8fUxXJeAPB7sa+03tph67eDYUfbUmcbQZgS2Cq37ATgST/ANy0aLfzeMUwX12FeH3EJirnXBVBw/Mj4/2k5m8W0alGiXRFwqrxqVvkhVTrYKM5uTyt4Tuq0+f+1usWp0KGY01eozuxD9GSosoJAOtyTbzhhJyklonOCjFs8DVOEcu71axdmzHoqNOklz+gAAvlOa60/oux5XW024TCYU2GfEVGOmWmlJdbceu+o8hOXVdCepmy9me2Y+NjadfLpo5ea57CuvMxtEKTZnyDnYtb0mW/b5ecINFUTOR9N9ndZ7vRoZ6yqekexpUzrYAlWOY8LaG33/SKDoRdqDoQSDnFIk94sx0nwLdnazYXF06wYgKyhwMlmW9iGuDYWvqATyn6EFQMAwNwwBB5g6znztxl7F8X5LQgvSB0osCeJCDXxIijjKd79FVFuB6M/C00M0Q7d5HpJKezojiFvj6f1K/iErRJ2vTvbo8Sf8qrb4iNc9/npM7huxj5gRlJdyiwvsyPtdP8PEeVNor8LoQTkrjuNJwYnI97s1+67GRgO/8Ae+yN+PgKhJdwvwunYlc/9DCLbbKWvkxHh0VS/pM9Nhr73H9O3l2Qi/j8fvlKx8Aq/Ir8Yqf+Di/9Fv4ySZ25t+7/AAkjVj4+yepefo4qtGKYhGjVYzrbOVIeg8I0G0Ql40GTciqQ+m8eGmND4xgvJtjo10iRe/0Wy6gr2A6X48eM1I85+ckW1ldIRzk2tj2SOoGkd7Cc7pz3yi5MFWGyNavDVj/JExC8NbwsKZuVz/JEYr/zeYlvGLeTZRM3K8MNMaxqg9/w1k2Omaw8u97cdDfQnXQjXnxiVBhJftFtdLG9xEbC0jSGnO2zsLD4wKKygldFcLSLgcgzKSB4TaojViXcXtEpxTWmcbZ25uCpNnVMzEEFnyMTfj9ET5Dv3sZMFjXo0xlQolSmuZmIUrY3La3zK58599QT4x7Xa9NtoKEN2TDolWxBCvmZgv62Vhe/MS3D5JSm9vfI4s8Eo8jw157j2XbvpjMU7Vqa1aVGndwxYL0jEZNAddA/p4Twt59i9iDJ0OKAy5xUTNc2bo8py+V806c0nGDaOaPNow7d9mdY1icJ0KUj7qu9W6c+IYmfSMJQFKmlMa9HTRL6XOVQOU21D2TM5vPPlmlNJPsd2PGk213Adoh2hveIcmZM64RAqVLC9idRoLX1MWz208hCZpmdjKRK60W798Q7xdQXNzroBYk5dDcdXhe/bxiXc90tFE5MpH0P6zfaYDub8dO0W1vpbX1gMx7otmMqiLY3pJJmzGSMJs5qNNaNMCtNaODLSOaDRpV5ZcxIeAamsRIdyNBcy6VUi9yTc3118hyEzs4gioJtAtzNpxJgHEkzNnlq01UBy2alxDRi4hpmV4avA0MpGkYl4xcS8zK4jFeI0h1I0riX7o1cU/ITKrxivEaXgdSNa4p+QjkxLcpjV4xKulyLdxtcekm4lFI2riG5Rq1TymNHjUeSlEqpI2K5jlczGrxymSaM0ma1afA/aDVottGuaAIAa1Qk3DVxo5HIX08QZ90asEUsbAKCxJ0AAFzefm/aOIFWs9QZvylRn6xBbrMTqees6OEj+TZwcVySRmn1T2IOgfFCxzlKZDXFsgL3FuN7ka+HDt+Vz6J7G6LHFVagbKEohXT6+Zrg+WX4zo4hf42cuJbkkfZKtQcOfjM7NLd5ndp5aR6kIFO0QzyPUmR61+Y8ZWKLrSCqVJld4FSpObjkZypD1EyNmITLZxya4OkvCIk56Nb1Yh6sS7xLvLxiQlMa1WA1SZzUi3qG2nlfheUUSUpmjpJJlzyRqi2OfTrRtOowJva1+ra97d85wcx6VDOiUTijM6HTGWKkwCpIHi0H9Q2NUvCDzIGMNWhqLfZrWpLD+OszB4QeLoZSNoqQleZA8IPFcRlI2LUjBUmEPGZ4riOpG1akYtSYVeGrxXEdTOgtSMWpMAeEtSTcB1M6S1I1ak4GM2ulH3xUN/qIzD1nQpV8wBFxcX10MSWNpbKRyJvSOslSaUqTkpVjRW0015SEoF4yQjfVv6BWGVnJQLlVmQ6ka3HEDiR28O2fE0fKpRkW5BsWU5wfunvd8trGrTOGNWkliCy3zO1jwNuFuM4uAw+HSi5zNWL0yvSPTKIjH6rsb9nZOrDFxRwcTJTny7I8qgOYcPA8DPVboY9flSopqUGqWBqU+jcAADQqQLLx1BvPNYZRnXX6Vr/fN20cKKTq+pDdYWuoY9zfGVktpx8nNCWpKXg/QXSacb6amKqPOHuztUYjCo4DLZQpvqGYCxIm+rVM8yjT0z2oyi1tF1akxVaklSpMlV5aMBJSALkXuxa5uLgC3doJnqVj4y6jzM7zojE55SMWP2m9N1RKT1M/FlsFXx/5jzVPaILtFF5ZL2IN8+o1ngM8UzwS0ZIRyD6SSJsJI2kLZmANLzSSSxyFMzH3bd978I5WkkmZkGHlMt7G505EiSSAYarQs0kkAwYeEHkkijJhh4YeSSAZBB4avLkisZMMPDDypIrGTY1Xgv0pYFSoX6SkEsfA30kkij7NIeBjK9RVJQBmt1QTYHz7JJJPS2VT5HiF2SpOerTJdnJa7k5zfhpoBG7boFqWihAuirmJGgkklu5zNcmeYwqWa50y8uN+6e1x1NHwYDdUKhsWAa2nHTW8kk0uwmLo/wDRi9nmPdKr0QCyVFzE3tlcdoHeNPIT6A9aSSQyJWOzA36ZnqVJmZ7ySQxSGbYl3mWqxtobd9rySSkSMjMoYXzNmvqNALSi0kkoRYomUWkkhFKzSSSQmP/Z"><br>
+                <strong> yoga traning</strong><br>
+                         8am to 9am</td>
+                <td> x</td>
+                <td><img src="https://www.ekhartyoga.com/media/image/articles/why-do-we-practise-yoga-in-the-morning.jpg" alt="60% " width="60px" height="60px"><br>
+                 <strong>yoga traning</strong><br>
+                         9am to 10 </td>
+                <td> x</td>
+
+            </tr>
+            <tr>
+                <td><img width="90px" height="90px" src="https://i0.wp.com/www.yogabasics.com/yogabasics2017/wp-content/uploads/2021/01/morning-yoga-in-bed.jpeg?fit=956%2C639&ssl=1"><br>
+                <strong> yoga traning</strong><br>
+                         7am to 9am</td>
+                <td>x</td>
+                <td><img src="https://media.istockphoto.com/vectors/girl-does-yoga-vector-id1324022275?k=20&m=1324022275&s=612x612&w=0&h=0Yfs08ESOEjHy9DhyMuqdTyMXcLjh3vdTB2Mnu5r3l4=" width="90px" height="90px"><br>
+                 <strong> yoga traning</strong><br>
+                          6am to 9am</td>
+                <td> x</td> 
+                <td> <img width="90px" height="90px" src="https://i0.wp.com/www.yogabasics.com/yogabasics2017/wp-content/uploads/2021/07/Morning-Yoga-Tips.jpeg?fit=956%2C637&ssl=1"><br>
+                 <strong> yoga traning </strong><br>
+                          7am to 9:30</td>
+
+            </tr>
+            <tr>
+                <td>x</td>
+                <td> <img src="https://images.tv9hindi.com/wp-content/uploads/2021/05/0KxQ6Jw9.jpg?w=1280&enlarge=true" width="90px" height="90px"><br>
+                <strong> yoga traning</strong><br>
+                         8am to 9am</td>
+                <td>x</td>
+                <td><img src="https://www.lifeawayfromlife.com/wordpress/wp-content/uploads/bigstock-Young-Woman-Doing-Yoga-In-A-Fo-80843819_f_improf_3000x2000.jpg" width="90px" height="90px"><br>
+                <section> yoga traning</section><br>
+                          5am to 6am</td>
+                <td> x</td>
+            
+            </tr>
+            <tr style="border: none;">
+                <td></td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> <img src="https://cdn-icons-png.flaticon.com/512/109/109617.png" width="60px" height="60px"></td>
+            
+            </tr>  
+    
+      
+      </tbody>
+      
+              
+              
+      </thead>
+    
+    </table>
+        
+</div>
+
+</body>
+
+</html>
+          
